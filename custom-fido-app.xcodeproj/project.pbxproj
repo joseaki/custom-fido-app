@@ -14,6 +14,31 @@
 		A90284762BBB2FA600C16CB7 /* custom_fido_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284752BBB2FA600C16CB7 /* custom_fido_appTests.swift */; };
 		A90284802BBB2FA600C16CB7 /* custom_fido_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902847F2BBB2FA600C16CB7 /* custom_fido_appUITests.swift */; };
 		A90284822BBB2FA600C16CB7 /* custom_fido_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284812BBB2FA600C16CB7 /* custom_fido_appUITestsLaunchTests.swift */; };
+		A90284B32BBB467500C16CB7 /* Attestation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284912BBB43B700C16CB7 /* Attestation.swift */; };
+		A90284B42BBB467500C16CB7 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284922BBB43B700C16CB7 /* Authenticator.swift */; };
+		A90284B52BBB467500C16CB7 /* AuthenticatorCreateCredentialsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284932BBB43B700C16CB7 /* AuthenticatorCreateCredentialsSession.swift */; };
+		A90284B62BBB467500C16CB7 /* AuthenticatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284942BBB43B700C16CB7 /* AuthenticatorData.swift */; };
+		A90284B72BBB467500C16CB7 /* AuthenticatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284952BBB43B700C16CB7 /* AuthenticatorProvider.swift */; };
+		A90284B82BBB467500C16CB7 /* BiometricVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284962BBB43B700C16CB7 /* BiometricVerification.swift */; };
+		A90284B92BBB467500C16CB7 /* KeySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284972BBB43B700C16CB7 /* KeySupport.swift */; };
+		A90284BA2BBB467500C16CB7 /* SelfAttestation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284982BBB43B700C16CB7 /* SelfAttestation.swift */; };
+		A90284BB2BBB467500C16CB7 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902849A2BBB43B700C16CB7 /* KeyPair.swift */; };
+		A90284BD2BBB467500C16CB7 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902849D2BBB43B700C16CB7 /* Base64.swift */; };
+		A90284BE2BBB467500C16CB7 /* CBOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902849E2BBB43B700C16CB7 /* CBOR.swift */; };
+		A90284BF2BBB467500C16CB7 /* COSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902849F2BBB43B700C16CB7 /* COSE.swift */; };
+		A90284C02BBB467500C16CB7 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A02BBB43B700C16CB7 /* Hex.swift */; };
+		A90284C12BBB467500C16CB7 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A12BBB43B700C16CB7 /* JSON.swift */; };
+		A90284C22BBB467500C16CB7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A22BBB43B700C16CB7 /* Logger.swift */; };
+		A90284C32BBB467500C16CB7 /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A32BBB43B700C16CB7 /* UUID.swift */; };
+		A90284C42BBB467500C16CB7 /* ClientCreateOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A52BBB43B700C16CB7 /* ClientCreateOperation.swift */; };
+		A90284C52BBB467500C16CB7 /* ClientGetOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A62BBB43B700C16CB7 /* ClientGetOperation.swift */; };
+		A90284C62BBB467500C16CB7 /* CredentialSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A82BBB43B700C16CB7 /* CredentialSource.swift */; };
+		A90284C72BBB467500C16CB7 /* CredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284A92BBB43B700C16CB7 /* CredentialStore.swift */; };
+		A90284C82BBB467500C16CB7 /* Fido2Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284AB2BBB43B700C16CB7 /* Fido2Types.swift */; };
+		A90284C92BBB467500C16CB7 /* Fido2Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284AD2BBB43B700C16CB7 /* Fido2Auth.swift */; };
+		A90284CD2BBBAB7300C16CB7 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = A90284CC2BBBAB7300C16CB7 /* JWTDecode */; };
+		A90284CF2BBDC5E900C16CB7 /* AuthenticatorGetCredentialsAssertionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90284CE2BBDC5E900C16CB7 /* AuthenticatorGetCredentialsAssertionSession.swift */; };
+		A9592FD62BC61603008EE0EF /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9592FD52BC61603008EE0EF /* PublicKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +69,30 @@
 		A902847B2BBB2FA600C16CB7 /* custom-fido-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-fido-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A902847F2BBB2FA600C16CB7 /* custom_fido_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_fido_appUITests.swift; sourceTree = "<group>"; };
 		A90284812BBB2FA600C16CB7 /* custom_fido_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_fido_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A90284912BBB43B700C16CB7 /* Attestation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attestation.swift; sourceTree = "<group>"; };
+		A90284922BBB43B700C16CB7 /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		A90284932BBB43B700C16CB7 /* AuthenticatorCreateCredentialsSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorCreateCredentialsSession.swift; sourceTree = "<group>"; };
+		A90284942BBB43B700C16CB7 /* AuthenticatorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorData.swift; sourceTree = "<group>"; };
+		A90284952BBB43B700C16CB7 /* AuthenticatorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorProvider.swift; sourceTree = "<group>"; };
+		A90284962BBB43B700C16CB7 /* BiometricVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricVerification.swift; sourceTree = "<group>"; };
+		A90284972BBB43B700C16CB7 /* KeySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySupport.swift; sourceTree = "<group>"; };
+		A90284982BBB43B700C16CB7 /* SelfAttestation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfAttestation.swift; sourceTree = "<group>"; };
+		A902849A2BBB43B700C16CB7 /* KeyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		A902849D2BBB43B700C16CB7 /* Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		A902849E2BBB43B700C16CB7 /* CBOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBOR.swift; sourceTree = "<group>"; };
+		A902849F2BBB43B700C16CB7 /* COSE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSE.swift; sourceTree = "<group>"; };
+		A90284A02BBB43B700C16CB7 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		A90284A12BBB43B700C16CB7 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		A90284A22BBB43B700C16CB7 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A90284A32BBB43B700C16CB7 /* UUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUID.swift; sourceTree = "<group>"; };
+		A90284A52BBB43B700C16CB7 /* ClientCreateOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCreateOperation.swift; sourceTree = "<group>"; };
+		A90284A62BBB43B700C16CB7 /* ClientGetOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientGetOperation.swift; sourceTree = "<group>"; };
+		A90284A82BBB43B700C16CB7 /* CredentialSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialSource.swift; sourceTree = "<group>"; };
+		A90284A92BBB43B700C16CB7 /* CredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStore.swift; sourceTree = "<group>"; };
+		A90284AB2BBB43B700C16CB7 /* Fido2Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fido2Types.swift; sourceTree = "<group>"; };
+		A90284AD2BBB43B700C16CB7 /* Fido2Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fido2Auth.swift; sourceTree = "<group>"; };
+		A90284CE2BBDC5E900C16CB7 /* AuthenticatorGetCredentialsAssertionSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorGetCredentialsAssertionSession.swift; sourceTree = "<group>"; };
+		A9592FD52BC61603008EE0EF /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90284CD2BBBAB7300C16CB7 /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +124,12 @@
 		A90284582BBB2FA400C16CB7 = {
 			isa = PBXGroup;
 			children = (
+				A90284AF2BBB43B700C16CB7 /* Fido2Auth */,
 				A90284632BBB2FA500C16CB7 /* custom-fido-app */,
 				A90284742BBB2FA600C16CB7 /* custom-fido-appTests */,
 				A902847E2BBB2FA600C16CB7 /* custom-fido-appUITests */,
 				A90284622BBB2FA500C16CB7 /* Products */,
+				A90284CB2BBBAB7300C16CB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +179,92 @@
 			path = "custom-fido-appUITests";
 			sourceTree = "<group>";
 		};
+		A90284992BBB43B700C16CB7 /* Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				A90284912BBB43B700C16CB7 /* Attestation.swift */,
+				A90284922BBB43B700C16CB7 /* Authenticator.swift */,
+				A90284932BBB43B700C16CB7 /* AuthenticatorCreateCredentialsSession.swift */,
+				A90284942BBB43B700C16CB7 /* AuthenticatorData.swift */,
+				A90284952BBB43B700C16CB7 /* AuthenticatorProvider.swift */,
+				A90284962BBB43B700C16CB7 /* BiometricVerification.swift */,
+				A90284972BBB43B700C16CB7 /* KeySupport.swift */,
+				A90284982BBB43B700C16CB7 /* SelfAttestation.swift */,
+				A90284CE2BBDC5E900C16CB7 /* AuthenticatorGetCredentialsAssertionSession.swift */,
+			);
+			path = Authenticator;
+			sourceTree = "<group>";
+		};
+		A902849C2BBB43B700C16CB7 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				A902849A2BBB43B700C16CB7 /* KeyPair.swift */,
+				A9592FD52BC61603008EE0EF /* PublicKey.swift */,
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
+		A90284A42BBB43B700C16CB7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A902849D2BBB43B700C16CB7 /* Base64.swift */,
+				A902849E2BBB43B700C16CB7 /* CBOR.swift */,
+				A902849F2BBB43B700C16CB7 /* COSE.swift */,
+				A90284A02BBB43B700C16CB7 /* Hex.swift */,
+				A90284A12BBB43B700C16CB7 /* JSON.swift */,
+				A90284A22BBB43B700C16CB7 /* Logger.swift */,
+				A90284A32BBB43B700C16CB7 /* UUID.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A90284A72BBB43B700C16CB7 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A90284A52BBB43B700C16CB7 /* ClientCreateOperation.swift */,
+				A90284A62BBB43B700C16CB7 /* ClientGetOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		A90284AA2BBB43B700C16CB7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A90284A82BBB43B700C16CB7 /* CredentialSource.swift */,
+				A90284A92BBB43B700C16CB7 /* CredentialStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A90284AC2BBB43B700C16CB7 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				A90284AB2BBB43B700C16CB7 /* Fido2Types.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		A90284AF2BBB43B700C16CB7 /* Fido2Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A90284992BBB43B700C16CB7 /* Authenticator */,
+				A902849C2BBB43B700C16CB7 /* Certificate */,
+				A90284A42BBB43B700C16CB7 /* Helpers */,
+				A90284A72BBB43B700C16CB7 /* Operations */,
+				A90284AA2BBB43B700C16CB7 /* Store */,
+				A90284AC2BBB43B700C16CB7 /* Types */,
+				A90284AD2BBB43B700C16CB7 /* Fido2Auth.swift */,
+			);
+			path = Fido2Auth;
+			sourceTree = "<group>";
+		};
+		A90284CB2BBBAB7300C16CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +281,9 @@
 			dependencies = (
 			);
 			name = "custom-fido-app";
+			packageProductDependencies = (
+				A90284CC2BBBAB7300C16CB7 /* JWTDecode */,
+			);
 			productName = "custom-fido-app";
 			productReference = A90284612BBB2FA500C16CB7 /* custom-fido-app.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +356,9 @@
 				Base,
 			);
 			mainGroup = A90284582BBB2FA400C16CB7;
+			packageReferences = (
+				A90284CA2BBBA79100C16CB7 /* XCRemoteSwiftPackageReference "JWTDecode" */,
+			);
 			productRefGroup = A90284622BBB2FA500C16CB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +401,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90284B32BBB467500C16CB7 /* Attestation.swift in Sources */,
+				A90284B42BBB467500C16CB7 /* Authenticator.swift in Sources */,
+				A90284B52BBB467500C16CB7 /* AuthenticatorCreateCredentialsSession.swift in Sources */,
+				A90284B62BBB467500C16CB7 /* AuthenticatorData.swift in Sources */,
+				A90284B72BBB467500C16CB7 /* AuthenticatorProvider.swift in Sources */,
+				A90284B82BBB467500C16CB7 /* BiometricVerification.swift in Sources */,
+				A90284CF2BBDC5E900C16CB7 /* AuthenticatorGetCredentialsAssertionSession.swift in Sources */,
+				A90284B92BBB467500C16CB7 /* KeySupport.swift in Sources */,
+				A90284BA2BBB467500C16CB7 /* SelfAttestation.swift in Sources */,
+				A90284BB2BBB467500C16CB7 /* KeyPair.swift in Sources */,
+				A90284BD2BBB467500C16CB7 /* Base64.swift in Sources */,
+				A90284BE2BBB467500C16CB7 /* CBOR.swift in Sources */,
+				A90284BF2BBB467500C16CB7 /* COSE.swift in Sources */,
+				A90284C02BBB467500C16CB7 /* Hex.swift in Sources */,
+				A90284C12BBB467500C16CB7 /* JSON.swift in Sources */,
+				A90284C22BBB467500C16CB7 /* Logger.swift in Sources */,
+				A90284C32BBB467500C16CB7 /* UUID.swift in Sources */,
+				A90284C42BBB467500C16CB7 /* ClientCreateOperation.swift in Sources */,
+				A90284C52BBB467500C16CB7 /* ClientGetOperation.swift in Sources */,
+				A90284C62BBB467500C16CB7 /* CredentialSource.swift in Sources */,
+				A9592FD62BC61603008EE0EF /* PublicKey.swift in Sources */,
+				A90284C72BBB467500C16CB7 /* CredentialStore.swift in Sources */,
+				A90284C82BBB467500C16CB7 /* Fido2Types.swift in Sources */,
+				A90284C92BBB467500C16CB7 /* Fido2Auth.swift in Sources */,
 				A90284672BBB2FA500C16CB7 /* ContentView.swift in Sources */,
 				A90284652BBB2FA500C16CB7 /* custom_fido_appApp.swift in Sources */,
 			);
@@ -347,7 +515,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Description;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +573,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Description;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,13 +592,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"custom-fido-app/Preview Content\"";
+				DEVELOPMENT_TEAM = T6XRW2M66P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This is for test purposes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,13 +623,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"custom-fido-app/Preview Content\"";
+				DEVELOPMENT_TEAM = T6XRW2M66P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "This is for test purposes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,8 +653,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6XRW2M66P;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antonioalanya.custom-fido-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,8 +673,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6XRW2M66P;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antonioalanya.custom-fido-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,6 +760,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A90284CA2BBBA79100C16CB7 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90284CC2BBBAB7300C16CB7 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90284CA2BBBA79100C16CB7 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A90284592BBB2FA400C16CB7 /* Project object */;
 }
